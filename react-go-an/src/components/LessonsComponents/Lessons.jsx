@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import {ToDoList} from "./fastHooks"
 
 class L1 extends Component {
     render () {
@@ -28,6 +29,7 @@ export function LessonsCompilation () {
             <L1/>
             <L2/>
             <L3/>
+            <ToDoList/>
         </>
     )
 }
